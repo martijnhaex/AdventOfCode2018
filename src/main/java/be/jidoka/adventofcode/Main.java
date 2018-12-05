@@ -14,7 +14,10 @@ public class Main {
     private static final Map<Integer, Puzzle> PUZZLES;
 
     public static void main(String[] args) {
-        Puzzle puzzle = loadPuzzle(Integer.valueOf(args[0]));
+        Integer day = Integer.valueOf(args[0]);
+        Puzzle puzzle = loadPuzzle(day);
+
+        System.out.println("Advent of Code --- Day " + day);
         System.out.println("Your puzzle answer for Part One is " + puzzle.solvePartOne());
         System.out.println("Your puzzle answer for Part Two is " + puzzle.solvePartTwo());
     }
