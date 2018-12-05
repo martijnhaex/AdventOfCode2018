@@ -1,6 +1,7 @@
 package be.jidoka.adventofcode;
 
 import be.jidoka.adventofcode.puzzle.Puzzle;
+import be.jidoka.adventofcode.puzzle.day.PuzzleDayFour;
 import be.jidoka.adventofcode.puzzle.day.PuzzleDayOne;
 import be.jidoka.adventofcode.puzzle.day.PuzzleDayThree;
 import be.jidoka.adventofcode.puzzle.day.PuzzleDayTwo;
@@ -26,7 +27,8 @@ public class Main {
         PUZZLES = Map.ofEntries(
                 Map.entry(1, new PuzzleDayOne()),
                 Map.entry(2, new PuzzleDayTwo()),
-                Map.entry(3, new PuzzleDayThree())
+                Map.entry(3, new PuzzleDayThree()),
+                Map.entry(4, new PuzzleDayFour())
         );
     }
 }
