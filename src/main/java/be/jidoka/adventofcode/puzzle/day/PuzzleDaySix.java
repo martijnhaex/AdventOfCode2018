@@ -92,7 +92,7 @@ public class PuzzleDaySix extends PuzzleWithInputFile<Integer> {
             return createRegions()
                     .values()
                     .stream()
-                    .mapToInt(x -> x)
+                    .mapToInt(Integer::valueOf)
                     .max()
                     .getAsInt();
         }
