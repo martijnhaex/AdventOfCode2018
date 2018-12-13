@@ -5,10 +5,9 @@ import be.jidoka.adventofcode.puzzle.day.PuzzleDayEleven;
 import be.jidoka.adventofcode.puzzle.day.PuzzleDayFive;
 import be.jidoka.adventofcode.puzzle.day.PuzzleDayFour;
 import be.jidoka.adventofcode.puzzle.day.PuzzleDayOne;
-import be.jidoka.adventofcode.puzzle.day.PuzzleDaySeven;
 import be.jidoka.adventofcode.puzzle.day.PuzzleDaySix;
+import be.jidoka.adventofcode.puzzle.day.PuzzleDayTen;
 import be.jidoka.adventofcode.puzzle.day.PuzzleDayThree;
-import be.jidoka.adventofcode.puzzle.day.PuzzleDayTwelve;
 import be.jidoka.adventofcode.puzzle.day.PuzzleDayTwo;
 
 import java.util.Map;
@@ -40,6 +39,7 @@ public class Main {
                 Map.entry(4, new PuzzleDayFour()),
                 Map.entry(5, new PuzzleDayFive()),
                 Map.entry(6, new PuzzleDaySix()),
+                Map.entry(10, new PuzzleDayTen()),
                 Map.entry(11, new PuzzleDayEleven())
         );
     }
